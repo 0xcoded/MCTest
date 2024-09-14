@@ -15,6 +15,6 @@ try:
                 #s.connect((str(IP), 26247))
                 s.connect((str(IP), Port))
 
-                print("El servidor está ABIERTO(" + IP + ":" + str(Port) + ")")
+                print("Servidor está ABIERTO (" + IP + ":" + str(Port) + ")")
 except:
         print("Servidor NO DISPONIBLE (" + IP + ":" + str(Port) + ")")
